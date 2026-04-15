@@ -1,0 +1,85 @@
+__pycache__/*
+
+# do not track generated data and results
+data/*
+results/*
+
+# do not track Jupyter notebooks and checkpoints
+*.ipynb
+.ipynb_checkpoints/*
+
+# __pycache__/eval_utils.cpython-313.pyc
+# __pycache__/utils.cpython-313.pyc
+# data/mimic/embed_mimic-instr.pickle
+# data/mimic/dataprep_mimic-hist.log
+# data/mimic/dataprep_mimic-instr.log
+# data/mimic/discharge_hist.csv
+# data/mimic/discharge_instr.csv
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-beta_0.3-sigma_0.01-lamb_0.0001-temp_1.0/datagen_42.log
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-topk_-1-clip_0.549-temp_1.0/data_42.csv
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-topk_-1-clip_0.549-temp_1.0/datagen_42.log
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-topk_-1-clip_0.549-temp_1.0/results_42.pickle
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-topk_100-clip_0.549-temp_1.0/data_42.csv
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-topk_100-clip_0.549-temp_1.0/datagen_42.log
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-topk_100-clip_0.549-temp_1.0/results_42.pickle
+# data/yelp/train.csv
+# data/tab/echr_train.json
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-beta_0.3-sigma_0.01-lamb_0.0001-temp_1.0/data_42.csv
+# results/mimic-instr/invink/tinyllama1B-eps_10-batch_8-tokens_500-beta_0.3-sigma_0.01-lamb_0.0001-temp_1.0/results_42.pickle
+# data/yelp/train_0_0.csv
+# data/yelp/train_0_1.csv
+# data/yelp/train_0_2.csv
+# data/yelp/train_0_3.csv
+# data/yelp/train_0_4.csv
+# data/yelp/train_1_0.csv
+# data/yelp/train_1_1.csv
+# data/yelp/train_1_2.csv
+# data/yelp/train_1_3.csv
+# data/yelp/train_1_4.csv
+# data/yelp/train_2_0.csv
+# data/yelp/train_2_1.csv
+# data/yelp/train_2_2.csv
+# data/yelp/train_2_3.csv
+# data/yelp/train_2_4.csv
+# data/yelp/train_3_0.csv
+# data/yelp/train_3_1.csv
+# data/yelp/train_3_2.csv
+# data/yelp/train_3_3.csv
+# data/yelp/train_3_4.csv
+# data/yelp/train_4_0.csv
+# data/yelp/train_4_1.csv
+# data/yelp/train_4_2.csv
+# data/yelp/train_4_3.csv
+# data/yelp/train_4_4.csv
+# data/yelp/train_5_0.csv
+# data/yelp/train_5_1.csv
+# data/yelp/train_5_2.csv
+# data/yelp/train_5_3.csv
+# data/yelp/train_5_4.csv
+# data/yelp/train_6_0.csv
+# data/yelp/train_6_1.csv
+# data/yelp/train_6_2.csv
+# data/yelp/train_6_3.csv
+# data/yelp/train_6_4.csv
+# data/yelp/train_7_0.csv
+# data/yelp/train_7_1.csv
+# data/yelp/train_7_2.csv
+# data/yelp/train_7_3.csv
+# data/yelp/train_7_4.csv
+# data/yelp/train_8_0.csv
+# data/yelp/train_8_1.csv
+# data/yelp/train_8_2.csv
+# data/yelp/train_8_3.csv
+# data/yelp/train_8_4.csv
+# data/yelp/train_9_0.csv
+# data/yelp/train_9_1.csv
+# data/yelp/train_9_2.csv
+# data/yelp/train_9_3.csv
+# data/yelp/train_9_4.csv
+# data/yelp/yelp_reviews.csv
+# results/mimic-instr/adapmixed/tinyllama1B-eps_10-batch_8-tokens_500-beta_0.3-sigma_0.01-lamb_0.0001-temp_1.0/data_42.csv
+# results/mimic-instr/adapmixed/tinyllama1B-eps_10-batch_8-tokens_500-beta_0.3-sigma_0.01-lamb_0.0001-temp_1.0/datagen_42.log
+# results/mimic-instr/adapmixed/tinyllama1B-eps_10-batch_8-tokens_500-beta_0.3-sigma_0.01-lamb_0.0001-temp_1.0/results_42.pickle
+# results/mimic-instr/amin/tinyllama1B-eps_20-batch_32-tokens_500-ptokens_100-clip_6.9-temp_1.0-sigma_0.3-theta_0.7/data_42.csv
+# results/mimic-instr/amin/tinyllama1B-eps_20-batch_32-tokens_500-ptokens_100-clip_6.9-temp_1.0-sigma_0.3-theta_0.7/datagen_42.log
+# results/mimic-instr/amin/tinyllama1B-eps_20-batch_32-tokens_500-ptokens_100-clip_6.9-temp_1.0-sigma_0.3-theta_0.7/results_42.pickle
