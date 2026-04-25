@@ -21,7 +21,7 @@ import os, sys, subprocess, argparse, textwrap, getpass
 
 # ── package list — ORDER MATTERS ─────────────────────────────────────────────
 PACKAGES = [
-    'numpy==2.2.4',
+    'numpy==2.0.0',
     'pandas==2.2.3',
     'scipy==1.15.2',
     'scikit-learn==1.6.1',
