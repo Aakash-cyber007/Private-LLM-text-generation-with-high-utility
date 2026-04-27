@@ -379,7 +379,7 @@ def generate(
             counter += 1
             
             # break loop if EOS is encountered
-            if (nxt_token == model.generation_config.eos_token_id).any():
+            if nxt_token == model.generation_config.eos_token_id:
                 break
         
         # store results in a dictionary
