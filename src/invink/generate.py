@@ -361,9 +361,20 @@ def generate(
             topk_counts.append(np.sum((pub_mask)))
             
             # get next token sampled
-            probs = spl.softmax(avg_clip_logits / temperature)
-            nxt_token = np.random.choice(np.arange(vocab_size), p = probs)
-            token_seq = torch.cat((token_seq, torch.tensor([nxt_token], device = device)))
+            # --- Permute-and-Flip (PF) Mechanism Replacement ---
+            q = torch.tensor(avg_clip_logits / temperature, device=device)
+            q_star = torch.max(q)
+            p = torch.exp(q - q_star)
+            
+            # 3. 'R' defines the random permutation order (smallest R is checked first)
+            # 4. 'U' represents the independent coin flip for each token
+            R = torch.rand(vocab_size, device=device)
+            U = torch.rand(vocab_size, device=device)
+            valid = U <= p
+            
+            # 6. Pick the valid token that appears first in the permutation (minimum R)
+            nxt_token = torch.argmin(torch.where(valid, R, torch.inf)).item()
+            token_seq = torch.cat((token_seq, torch.tensor([nxt_token], device=device)))
             if nxt_token in idxs: ext_count += 1
             counter += 1
             

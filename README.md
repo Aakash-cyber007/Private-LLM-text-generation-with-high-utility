@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center" style="font-family: charter;">
 <h1>InvisibleInk</h1>
 
@@ -262,3 +263,6 @@ If you find this repository useful, or you use it in your research, please consi
 ## Ackowledgements
 
 This work was supported by the Post-Baccalaureate Fellowship at the Centre for Responsible AI (CeRAI), IIT Madras, the startup compute grant of the Wadhwani School of Data Science & AI (WSAI), IIT Madras, and faculty research awards.
+=======
+README.md
+>>>>>>> 98af01cd60297ebf20b9d03ae5b30dd7da689097
